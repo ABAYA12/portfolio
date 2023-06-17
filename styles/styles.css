@@ -12,6 +12,16 @@ html, body {
 }
 
 
+header a {
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #569cd6;
+  color: white;
+}
+
 a {
   color: white;
   text-decoration: none;
