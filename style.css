@@ -144,25 +144,26 @@ nav {
   cursor: pointer;
 }
 
+.about-content {
+
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    font-weight: bolder;
+    animation: about 1s ease-in-out;
+
+}
+
 #pagination {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 70px 0;
     gap: 30px;
-}
-
-.about-content {
-
-    max-width: 1200px;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    justify-items: center;
-    align-items: center;
-    animation: about 1s ease-in-out;
-
 }
 
 #pagination #prevButton,
@@ -193,5 +194,14 @@ footer {
     font-weight: bolder;
     padding: 10px 0;
     text-align: center;
-    margin-top: 50px;
+}
+
+#searchInput a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #ed3a3a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all .4s ease-in-out ;
 }
