@@ -152,6 +152,19 @@ nav {
     gap: 30px;
 }
 
+.about-content {
+
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    animation: about 1s ease-in-out;
+
+}
+
 #pagination #prevButton,
 #nextButton {
     padding: 10px;
