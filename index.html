@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pokédex</title>
+</head>
+<body>
+
+  <!-- nav bar -->
+  <header>
+    <nav>
+      <div class="logo">Pokédex</div>
+      <input id="searchInput" type="text" placeholder="Search Pokémon">
+    </nav>
+  </header>
+<!-- welcome info -->
+  <div id="welcome">
+    <h1>Welcome to the Pokédex!</h1>
+    <p>Scroll down to see the first 16 Pokémon or search for a specific Pokémon.</p>
+  </div>
+
+  <main id="pokemonList" class="grid-container">
+    <!-- Pokémon cards is displayed here -->
+  </main>
+  <div id="pagination">
+    <button id="prevButton">Previous</button>
+    <button id="nextButton">Next</button>
+  </div>
+
+  <div id="pokemonDetails" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="pokemonName"></h2>
+      <p><strong>Species:</strong> <span id="species"></span></p>
+      <p><strong>Base Stats:</strong></p>
+      <ul id="baseStats"></ul>
+      <p><strong>Types:</strong> <span id="types"></span></p>
+      <p><strong>Weight:</strong> <span id="weight"></span></p>
+      <p><strong>Moves:</strong></p>
+      <ul id="moves"></ul>
+    </div>
+  </div>
+
+  <!-- footer-->
+  <footer>
+    <p>Created by Ishmael K. Abayateye <a href="https://github.com/ABAYA12"
+      target="_blank">GitHub</a></p>
+  </footer>
+  
+  <script src="script.js" defer></script>
+</body>
+</html>
